@@ -11,8 +11,9 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 150px;
-  right: 910px;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .avatar img {
@@ -24,11 +25,47 @@ body {
 .cont {
   background-color: gray;
   width: 350px;
-  height: 450px;
+  min-height: 500px;
   border-radius: 10px;
-  margin: 0px auto;
+  margin: 100px auto 0 auto;
+  padding: 80px 20px 30px 20px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.Buttons {
+.btn {
   display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.attribution {
+  margin: 150px 0px;
+}
+
+.About {
+  display: block;
+}
+
+.City {
+  margin-top: 30px;
+}
+
+.name {
+  margin-top: 100px;
+  font-size: 24px;
 }
