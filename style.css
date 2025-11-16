@@ -3,6 +3,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: aliceblue;
+  font-family: Marker Felt, fantasy, sans-serif;
 }
 
 .avatar {
@@ -23,7 +24,7 @@ body {
 }
 
 .cont {
-  background-color: gray;
+  background-color: #1e293b;
   width: 350px;
   min-height: 500px;
   border-radius: 10px;
@@ -38,7 +39,7 @@ body {
   display: block;
   width: 100%;
   padding: 12px;
-  background-color: black;
+  background-color: #111827;
   color: white;
   border: none;
   border-radius: 8px;
@@ -54,7 +55,7 @@ body {
 }
 
 .attribution {
-  margin: 150px 0px;
+  margin: 480px 0px;
 }
 
 .About {
@@ -63,6 +64,8 @@ body {
 
 .City {
   margin-top: 30px;
+  margin: 30px;
+  color: #84cc16;
 }
 
 .name {
