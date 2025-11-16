@@ -3,7 +3,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: aliceblue;
-  font-family: Marker Felt, fantasy, sans-serif;
+  font-family: Marker Felt, fantasy, impact, sans-serif;
 }
 
 .avatar {
@@ -24,7 +24,7 @@ body {
 }
 
 .cont {
-  background-color: #1e293b;
+  background-color: #020617;
   width: 350px;
   min-height: 500px;
   border-radius: 10px;
@@ -45,6 +45,8 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  height: 100%;
 }
 
 .buttons {
@@ -71,4 +73,15 @@ body {
 .name {
   margin-top: 100px;
   font-size: 24px;
+}
+
+.btn:active {
+  background-color: #84cc16;
+}
+.btn:hover {
+  background-color: #84cc16;
+}
+
+a {
+  text-decoration: none;
 }
